@@ -1,0 +1,9 @@
+.borderCol {
+    border: 2px solid black;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+.form-control1 {
+    margin-bottom: 5px;
+}
