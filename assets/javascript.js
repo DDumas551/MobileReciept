@@ -18,7 +18,7 @@ $("#submitBtn").on("click", function() {
     truckRate = $("#truckRate").val();
     supplies = $("#supplies").val();
     prepaid = $("#prepaid").val();
-    subtotal = parseInt(hoursTotal) + parseInt(truckRate) + parseInt(supplies) + parseInt(-prepaid);
+    // subtotal = parseInt(hoursTotal) + parseInt(truckRate) + parseInt(supplies) + parseInt(-prepaid);
 
     $(".eePTag").append("Workers: " + employees);
     $(".datePTag").append("Today's Date: " + date);
@@ -28,6 +28,7 @@ $("#submitBtn").on("click", function() {
     $(".truckPtag").append("Truck Rate: $" + truckRate);
     $(".suppliesPtag").append("Supplies Cost: $" + supplies);
 
-    $(".subtotal").append("Job Subtotal: $" + subtotal);
+    $(".subtotal").append("Job Subtotal: $" + 5);
     console.log(hoursTotal);
+    console.log(subtotal);
 });
