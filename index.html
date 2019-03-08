@@ -16,10 +16,11 @@
                     <h1 class="timeHeader text-center"> 5 Star  Moving<br>Mobile Reciept</h1>
                     <input id="names" type="text" class="form-control form-control1 names" placeholder="Employee names" aria-label="Username" aria-describedby="basic-addon1">
                     <input id="todaysDate" type="date" class="form-control form-control1 names" placeholder="Today's Date" aria-label="Username" aria-describedby="basic-addon1">
-                    <input id="jobStart" type="number" class="form-control form-control1 hours" placeholder="Hours Worked" aria-label="Username" aria-describedby="basic-addon1">
+                    <input id="hours" type="number" class="form-control form-control1 hours" placeholder="Hours Worked" aria-label="Username" aria-describedby="basic-addon1">
                     <input id="hourlyRate" type="number" class="form-control form-control1 rate" placeholder="Hourly Rate" aria-label="Username" aria-describedby="basic-addon1">
                     <input id="truckRate" type="number" class="form-control form-control1 truck" placeholder="Truck Rate" aria-label="Username" aria-describedby="basic-addon1">
                     <input id="supplies" type="number" class="form-control form-control1 supplies" placeholder="Supplies" aria-label="Username" aria-describedby="basic-addon1">
+                    <input id="prepaid" type="number" class="form-control form-control1 prepaid" placeholder="Prepaid Amount" aria-label="Username" aria-describedby="basic-addon1">
                     <button id="submitBtn" type="button" class="btn btn-primary form-control1" data-toggle="modal" data-target="#addJobModal">Submit</button>
                 </div>
             </div>
@@ -34,13 +35,15 @@
                         </button>
                     </div>
                     <div class="modal-body">
-                        <p>Employees</p>
-                        <p>Date</p>
-                        <p>hours worked</p>
-                        <p>hourly rate</p>
-                        <p>truck rate</p>
-                        <p>supplies</p>
-                        <p></p>
+                        <p class="eePTag"></p>
+                        <p class="datePTag"></p>
+                        <p class="hoursPTag"></p>
+                        <p class="ratePTag"></p>
+                        <p class="hoursTotalPTag"></p>
+                        <p class="truckPtag"></p>
+                        <p class="suppliesPtag"></p>
+                        <p class="prepaidPtag"></p>
+                        <p class="subtotal"></p>
                         <p></p>
 
                     </div>
